@@ -22,7 +22,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Nama : IGNP Andre Pratama Milano \n NIM : 607062300016 \n Kelas : 47-02")
+                    Greeting("Nama : IGNP Andre Pratama Milano " +
+                            "\n NIM : 607062300016 " +
+                            "\n Kelas : 47-02")
                 }
             }
         }
